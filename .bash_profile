@@ -1,11 +1,8 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH"
+export PATH="/usr/local/bin:$HOME/bin:$PATH"
 
 # Set Vagrant default to VMware
 export VAGRANT_DEFAULT_PROVIDER='vmware_fusion'
-
-# Atom path
-#export ATOM_PATH=/opt/homebrew-cask/Caskroom/atom/latest/Atom.app
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -43,6 +40,4 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
-export PATH=/usr/local/bin:$PATH
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+#export PATH=/usr/local/packer:$PATH
