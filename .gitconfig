@@ -25,6 +25,9 @@
 
 	# Branches shortcut
 	b = branch
+	
+	# Merge shortcut
+	m = merge
 
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
