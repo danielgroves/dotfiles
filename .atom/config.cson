@@ -1,4 +1,4 @@
-'global':
+'*':
   'exception-reporting':
     'userId': '0f2375c4-ff7c-52d1-9f6d-ba648857fdef'
   'welcome':
@@ -6,4 +6,4 @@
   'core': {}
   'editor':
     'invisibles': {}
-    'tabLength': 4
+    'showInvisibles': true
