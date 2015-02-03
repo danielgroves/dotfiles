@@ -23,6 +23,12 @@
 	# Switch to a branch, creating it if necessary
 	go = checkout -B
 
+	# Branches shortcut
+	b = branch
+	
+	# Merge shortcut
+	m = merge
+
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
 	branches = branch -a
