@@ -9,4 +9,4 @@ git clone git@github.com:danielgroves/dotfiles.git ~/.dotfiles
 ~/.dotfiles/bootstrap.sh
 ```
 
-Only testing on OS X Yosemite
+Only tested on OS X Yosemite. 
