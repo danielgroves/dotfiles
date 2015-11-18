@@ -2,7 +2,7 @@
 
 BASE_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-FILES=(.aliases .atom .bash_profile .bash_prompt .bashrc .extra .functions .gitattributes .gitconfig .gitignore .gitk .profile .vimrc)
+FILES=(.aliases .atom .bash_profile .bash_prompt .bashrc .extra .functions .gitattributes .gitconfig .gitignore .gitk .profile .vimrc .gemrc)
 
 for i in "${FILES[@]}"
 do
@@ -27,5 +27,6 @@ if [ "${CURRENT_PROFILE}" != "${TERM_PROFILE}" ]; then
 	defaults write com.apple.terminal 'Default Window Settings' -string "${TERM_PROFILE}"
 	defaults write com.apple.terminal 'Startup Window Settings' -string "${TERM_PROFILE}"
 fi;
+
 echo "Done."
 

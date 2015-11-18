@@ -1,9 +1,13 @@
-'*':
-  'exception-reporting':
-    'userId': '0f2375c4-ff7c-52d1-9f6d-ba648857fdef'
-  'welcome':
-    'showOnStartup': false
-  'core': {}
-  'editor':
-    'invisibles': {}
-    'showInvisibles': true
+"*":
+  "exception-reporting":
+    userId: "0f2375c4-ff7c-52d1-9f6d-ba648857fdef"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    invisibles: {}
+    showInvisibles: true
